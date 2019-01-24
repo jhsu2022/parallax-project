@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/w3-css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <title>All About Me!</title>
+
+    </head>
+
+    <body>
+
+        <ul>
+            <div class="w3-bar w3-blue-gray">
+                <a href="#s1" class="w3-bar-item w3-button">Home</a>
+                <a href="#s2" class="w3-bar-item w3-button w3-hide-small">Hsinchu</a>
+                <a href="#s3" class="w3-bar-item w3-button w3-hide-small">Travelling</a>
+                <a href="#s4" class="w3-bar-item w3-button w3-hide-small">Skiing</a>
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+            </div>
+
+            <div id="demo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
+                <a href="#c2" class="w3-bar-item w3-button">Hsinchu</a>
+                <a href="#c3" class="w3-bar-item w3-button">Travelling</a>
+                <a href="#c4" class="w3-bar-item w3-button">Skiing</a>
+            </div>
+        </ul>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("demo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+
+        <div class="bgimg-1" id="s1">
+
+            <div class="caption">
+
+                <span class="border">All About Me!</span>
+
+            </div>
+
+        </div>
+
+        <div style="position:relative;">
+
+            <div style="color: #ffff00; background-color:#336699; text-align:center;padding:50px 80px;text-align: center;">
+
+                <p id="s2">Hello! My name is Justin Hsu and I am from Taiwan. I enjoy skiing, eating delicious food, playing Xbox and traveling to cool places.</p>
+
+            </div>
+
+        </div>
+
+        <div style="background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+
+            <h3 style="text-align:center;">Hsinchu</h3>
+
+            <p>Hsinchu is in Taiwan-is a city in northern Taiwan. Hsinchu is popularly nicknamed "The Windy City" for its windy climate.
+                The city was first settled by Han Chinese in 1711, during Qing rule. In 1878, Teckcham Subprefecture was converted into a district and renamed Hsinchu. The Hsinchu Science Park is home to 360 high tech companies including TSMC, Philips, United Microelectronics Corporation, Holtek, AU Optronics and Epistar. As a result, the city has the highest income level in Taiwan.
+                Currently, Hsinchu City is one of the most focused educational centers in northern Taiwan. It has six universities in this concentrated area and among these universities, National Chiao Tung University and National Tsing Hua University are highly focused by government in Taiwan on its academic development.</p>
+
+            <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-left-align">
+                Open For More Info</button>
+
+            <div id="Demo1" class="w3-container w3-hide">
+                <p>Hsinchu's climate is humid subtropical. The city is located in a part of the island that has a rainy season that lasts from February to September, with the heaviest time coming late April through August during the southwest monsoon, and also experiences typhoons in May and early June. The Hsinchu Science park is designed to cater for high quality R&D, production, work, life and also recreation. From its establishment in 1978, the government has invested over NT$30 billion on software and hardware ventures. In 2001, it developed 2.5 km2 (0.97 sq mi) of land in the park and 0.5 km2 (0.19 sq mi) in southern Hsinchu, attracting 312 high-tech companies' investments.</p>
+            </div>
+
+            <script>
+                function myFunction(id) {
+                    var x = document.getElementById(id);
+                    if (x.className.indexOf("w3-show") == -1) {
+                        x.className += " w3-show";
+                    } else { 
+                        x.className = x.className.replace(" w3-show", "");
+                    }
+                }
+            </script>
+
+        </div>
+
+        <div style="position:relative;">
+
+            <div style="color: #ffff00; background-color:#336699;text-align:center;padding:50px 80px;text-align: center;">
+
+                <p id="s3">My dream college is MIT. I would like to study computer sciences in the future.</p>
+
+            </div>
+
+        </div>
+
+        <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+
+            <h3 style="text-align:center; color: #000" >I love to travel</h3>
+
+            <p style="color: #000">We take EVA Air every year to taiwan in the summer and then take another trip so other parts of asia to places like shanghai, xi’an, beijing, tokyo, osaka, kyoto, macau, hong kong, canada, iceland, netherlands, UK, Belgium, Czech Rep., I have taken 1st class once. We go to the lounge before takeoff. My favorite part of traveling is flying because taking off and landing since it feels so cool and also free movies! Every where we go we make sure to hit all the most popular sites and try out all the local foods. Last summer, we went to Osaka and Kyoto, we had lots of Kobe beef and fabulous seafood. My favorite meal there was a all-you-can-eat Wagyu beef hot pot as well as all-you-can-eat king crab.
+            </p>
+
+        </div>
+
+        <div style="position:relative;">
+
+            <div style="color: #ffff00; background-color:#336699;text-align:center;padding:50px 80px;text-align: center;">
+
+                <p>I have driven around Taiwan before, as well as around Iceland. I have been to many different places either to ski or just to relax.</p>
+
+            </div>
+
+        </div>
+
+        <div class="bgimg-2" id="s4">
+
+        </div>
+
+        <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+
+            <h3 style="text-align:center;" >Skiing</h3>
+
+            <p style="color: #000">My favorite ski resorts are Whistler-Blackcomb, Whiteface and vail. They’re all giant ski resorts with state of the art equipment
+                I love to ski down glades (tree trails) but I hate moguls, they strain your knees so much it hurts. I ski every year with a giant group of people and we go to a different ski resort every christmas break. This year we went to Mont Tremblant. I used to ski competitively but found that casual skiing with friends was much better. I have a GoPro that I use to record myself skiing down the mountain. We mainly drive to the ski resorts that we go to like Stowe, Loon and Killington. I want to go heli-skiing in the back bowls of Whistler-Blackcomb. I enjoy the exhilarating feeling barreling down the mountain at 60mph.
+            </p>
+
+        </div>
+
+        <div class="bgimg-3"></div>
+
+        <div class="caption">
+
+        </div>
+
+        <div style="position:relative;">
+
+            <div style="color: #ffff00; background-color:#336699;text-align:center;padding:50px 80px;text-align: center;">
+
+                <p>I really want to go skiing in the Alps. My favorite trip for skiing was our school trip to Quebec last year where we skiied in Mont St-Anne.</p>
+
+            </div>
+
+        </div>
+
+        <div class="bgimg-4">
+
+            <p style="font-size: 14px;">The Chiang Kai Shek memorial in Taipei</p>
+
+        </div>
+
+    </body>
+
+</html>
+

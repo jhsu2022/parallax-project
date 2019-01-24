@@ -1,0 +1,179 @@
+body, html {
+
+    height: 100%;
+
+    margin: 0;
+
+    font: 400 15px/1.8 "Lato", sans-serif;
+
+    color: #000;
+
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bg-img4 {
+
+    position: relative;
+
+    opacity: 0.65;
+
+    background-attachment: fixed;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+
+.bgimg-1 {
+
+    background-image: url("/img/hsinchu-taiwan.jpg.jpg");
+
+    min-height: 100%;
+
+}
+
+.bgimg-2 {
+
+    background-image: url("/img/Osaka_Districts-XL.jpg");
+
+    min-height: 400px;
+
+}
+
+.bgimg-3 {
+
+    background-image: url("/img/whistler_mtn0_b8e12739-5056-b3a8-49830f62c13b55f6.jpg");
+
+    min-height: 400px;
+
+}
+
+.bgimg-4 {
+
+    background-image: url("/img/1200px-Chiang_Kai-shek_memorial_amk.jpg");
+
+    min-height: 100%;
+
+}
+
+.caption {
+
+    position: absolute;
+
+    left: 0;
+
+    top: 50%;
+
+    width: 100%;
+
+    text-align: center;
+
+    color: #000;
+    
+    font-weight: 700
+
+}
+
+.caption span.border {
+
+    background-color: rgba(0,0,0,0.50);
+
+    color: aqua;
+
+    padding: 18px;
+
+    font-size: 25px;
+
+    letter-spacing: 10px;
+
+}
+
+.text-bubble {
+
+    position: absolute;
+
+    left: 0;
+
+    top: 50%;
+
+    width: 100%;
+
+    text-align: center;
+
+    color: #000;
+    
+    font-weight: 700
+
+}
+
+.text {
+
+    background-color: rgba(0,0,0,0.50);
+
+    color: aqua;
+
+    padding: 18px;
+
+    font-size: 25px;
+
+    letter-spacing: 10px;
+
+}
+
+h3 {
+
+    letter-spacing: 5px;
+
+    text-transform: uppercase;
+
+    font: 20px "Lato", sans-serif;
+
+    color: #111;
+
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+
+        background-attachment: scroll;
+
+    }
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000000000000000
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
